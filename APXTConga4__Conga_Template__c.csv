@@ -1,0 +1,7 @@
+"Guid","APXTConga4__Description__c","APXTConga4__Key__c","APXTConga4__Label_Template_Use_Detail_Data__c","APXTConga4__Master_Field_to_Set_1__c","APXTConga4__Master_Field_to_Set_2__c","APXTConga4__Master_Field_to_Set_3__c","APXTConga4__Name__c","APXTConga4__Template_Extension__c","APXTConga4__Template_Group__c","APXTConga4__Template_Type__c"
+1807baed-5acb-4431-b077-53059789d1d6,"Created By Solution Pack for Composer Solution: Generate MSA (Contract)
+Sort Order Value: 1",0T_001EAM485999,false,"#N/A","#N/A","#N/A",MSA,"#N/A",MSA,Document
+24b441b2-f421-455a-b219-285e72c9d8fe,"Created By Solution Pack for Composer Solution: Final MSA CS (Contract)
+Sort Order Value: 1",0T_000EAM487057,false,"#N/A","#N/A","#N/A",MSA,"#N/A",MSA,Document
+31422d09-a10e-4651-a16a-f3558741cb9f,Created By Solution Pack for Composer Solution: Composer SP Proposal (Opportunity),0T_003EAM931608,false,"#N/A","#N/A","#N/A",Proposal Template,"#N/A",Proposal,Document
+3ce956fd-ebc5-4764-808e-728854ebdbe7,Created By Solution Pack for Composer Solution: Composer SP Account Brief (Account),0T_002EAM889659,false,"#N/A","#N/A","#N/A",Account Brief Template,"#N/A",Account,Document
