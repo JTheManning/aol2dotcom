@@ -1,0 +1,46 @@
+"Guid","APXTConga4__Comments__c","APXTConga4__Conga_Solution__c","APXTConga4__Name__c","APXTConga4__Value__c"
+081ccd30-b154-4f7f-8ae2-814e87e91995,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,TemplateGroup,MSA
+0b149550-a887-4135-a82f-0de773a18632,"#N/A",14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,XDO,CoreSDOContracts
+0c56056b-58f5-4eea-9d40-afc29c78e0d8,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,BML,Final MSA for {!Contract.Name}
+0cabd6fa-cba7-4f2c-b058-948a032c0f22,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,MFTSValue0,Out+For+Signature
+10ebefa0-53e2-4fee-b3bf-c05ea0ac5361,"#N/A",14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,TemplateGroup,Proposal
+140c650c-d65f-459c-96dd-050df7061a9a,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,CSRole1,Signer
+235b8535-ace4-44f5-b311-54d3aa7a7451,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,SC1,Attachments
+3164596f-81e3-4ebf-afb3-a20ef982572d,"#N/A",14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,OFN,Conga+Proposal+-+{!Opportunity.Name}+-+{!Today}
+3531e982-d948-474a-8d07-2e26e5e9781a,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,AC1,Final MSA Generated
+38d499a7-42da-4e59-8c31-b712d21dea33,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,csRecipient1,{!Contract.CustomerSignedId}
+3c868677-35af-4e11-8693-b568d360ef61,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,XDO,CoreSDOContracts
+3d52e76f-9e07-4e94-a357-2979d7df6095,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,XDO,CoreSDOContracts
+3ebf8ac9-bc2e-4d6d-9c0d-5a61c081d4fc,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,AC1,MSA Generated
+4340c494-d815-4362-be09-aa341bb83999,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,UF0,1
+4412eb39-accc-4d2c-98c3-81c60703d4e6,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,CSRole2,Signer
+4d274577-c74f-4c90-8c10-f85ac89b78fc,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,CSVisible,1
+5afdd576-bd35-4834-bbe2-c4e74be5686d,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,AC0,1
+5c06df68-aefc-4e44-b81f-e514872ae68a,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,csRecipient2,{!$User.Id}
+5d7fa5fd-4540-4b30-a063-cae916050dde,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,XDO,CoreSDOContracts
+72d16705-51a8-4a57-979a-0f97b5086495,"#N/A",14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,DefaultPDF,1
+73cb208c-a86c-413c-b11b-f9d2d4cc4289,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,TemplateGroup,MSA
+78c69095-7629-4658-8187-786212c4418b,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,MFTS0,Status
+7c01e36d-b863-47b6-b46f-5408033f8cba,"#N/A",14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,SC0,1
+7c5a4c4d-c08a-4138-8d81-56d1e44e6cfb,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,ContactId,{!Contract.CustomerSignedId}
+807e365e-6777-4271-ba2a-2f549ffb69a9,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,MFTSValue0,In+Approval+Process
+83f579da-0eb6-4663-87e1-3b38e7b1a01c,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,BML,Generating+MSA+for+{!Contract.Name}
+849a3e85-34c3-42da-baad-2dc41f9b936f,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,csRoutingType,SERIAL
+8981ee3c-873d-4c85-b4f1-ff3dc757ba97,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,OFN,Account+Brief+-+{!Account.Name}+-+{!Today}
+89e79e6c-707d-4231-a518-dd4928c6e283,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,DefaultPDF,1
+8a73314a-8cd5-4a22-a90b-94d9dd0f904b,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,AC1,Account+Brief+Created+By+{!User.Name}
+8eb68ed5-1447-46a6-a344-2ec6171e8516,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,MFTS0,Status
+9899629a-15f6-4e9f-825d-5dc336e9de16,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,UF0,1
+99afe2c2-bf50-43fa-905c-011b9d148a9e,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,FP0,2
+9de4e541-8177-4dc4-99eb-3dc5993f801b,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,DS7,11
+ae16150a-626a-4179-8c6e-dfcc94bc7c89,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,csEmailSubject,Please review Final MSA for {!Contract.Name}
+b49e6947-fafe-4116-8fe0-5dce9f4701cf,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,DefaultPDF,1
+ba1beefb-1130-4297-9b77-3227abce1057,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,SC0,1
+c128ff1b-6992-4b23-b53e-a3158736c8e7,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,AC0,1
+c1afc904-886f-4041-9503-5b00a0e13602,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,AC0,1
+c82f6818-d2ee-4b42-b4d2-9d6466761200,"#N/A",14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,SC1,Chatter
+dc28ed3c-5351-4342-b6d3-4e9c186bcc8f,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,DataTagEnable,1
+e59cad8b-675a-4e3d-b020-e017ab0048f2,"#N/A",6985914f-f183-4bf1-bc6a-e5da64f5db70,TemplateGroup,Account
+e9dfc7c0-34c4-4b20-9378-c29ffa2f08b0,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,DS7,1141
+f05070ef-0583-4d3e-8e1e-7a269eb648b3,"#N/A",9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,OFN,Generating+MSA - {!Today()}
+ffbc8774-71e5-48c1-ba15-dec462609094,"#N/A",b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,OFN,Final MSA - {!Today()}

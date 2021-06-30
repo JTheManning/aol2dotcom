@@ -1,0 +1,129 @@
+"Guid","APXTConga4__Button_Link_API_Name__c","APXTConga4__Button_body_field__c","APXTConga4__Composer_Parameters__c","APXTConga4__Custom_Object_Id__c","APXTConga4__Formula_Field_API_Name__c","APXTConga4__Formula_body_field__c","APXTConga4__Is_Quick_Start__c","APXTConga4__Master_Object_Type_Validator__c","APXTConga4__Master_Object_Type__c","APXTConga4__Sample_Record_Id__c","APXTConga4__Sample_Record_Name__c","APXTConga4__Solution_Description__c","APXTConga4__Solution_Weblink_Syntax__c","APXTConga4__Weblink_Id__c","Name"
+14ae29b4-2bab-4e8a-aad9-3f8e9cf7ca49,Conga_Composer_Composer_SP_Proposal,"/apex/APXTConga4__Conga_Composer?SolMgr=1
+&serverUrl={!API.Partner_Server_URL_370}
+&Id={!Opportunity.Id}
+
+&TemplateId=0T_003EAM931608
+
+&CongaEmailTemplateId=0E_000EAM825999
+
+&XDO=CoreSDOContracts
+&TemplateGroup=Proposal
+&DefaultPDF=1
+&OFN=Conga Proposal - {!Opportunity.Name} - {!Today}
+&SC0=1
+&SC1=Chatter","&TemplateId=0T_003EAM931608&CongaEmailTemplateId=0E_000EAM825999&XDO=CoreSDOContracts
+&TemplateGroup=Proposal
+&DefaultPDF=1
+&OFN=Conga Proposal - {!Opportunity.Name} - {!Today}
+&SC0=1
+&SC1=Chatter","#N/A","#N/A","#N/A",true,"#N/A",Opportunity,0065e000004AxFs,"#N/A",Created By Conga Composer Quick Start,"#N/A",00b5e000000hmQe,Composer SP Proposal
+6985914f-f183-4bf1-bc6a-e5da64f5db70,Conga_Composer_Composer_SP_Account_Brief,"/apex/APXTConga4__Conga_Composer?SolMgr=1
+&serverUrl={!API.Partner_Server_URL_370}
+&Id={!Account.Id}
+
+&QueryId=[Opptys]0Q_004EAM864640,
+[Contacts]0Q_005EAM864640,
+[Cases]0Q_006EAM864640,
+[Activities]0Q_007EAM864640
+
+&TemplateId=0T_002EAM889659
+
+&XDO=CoreSDOContracts
+&OFN=Account Brief - {!Account.Name} - {!Today}
+&AC0=1
+&AC1=Account Brief Created By {!User.Name}
+&SC0=1
+&SC1=Attachments
+&DefaultPDF=1
+&TemplateGroup=Account","&QueryId=[Opptys]0Q_004EAM864640,
+[Contacts]0Q_005EAM864640,
+[Cases]0Q_006EAM864640,
+[Activities]0Q_007EAM864640&TemplateId=0T_002EAM889659&XDO=CoreSDOContracts
+&OFN=Account Brief - {!Account.Name} - {!Today}
+&AC0=1
+&AC1=Account Brief Created By {!User.Name}
+&SC0=1
+&SC1=Attachments
+&DefaultPDF=1
+&TemplateGroup=Account","#N/A","#N/A","#N/A",true,"#N/A",Account,0015e0000066Ucb,"#N/A",Created By Conga Composer Quick Start,"#N/A",00b5e000000hmQU,Composer SP Account Brief
+9b87a3e2-b43a-489e-b0c1-38a88d0d6bdc,Conga_Composer_Generate_MSA,"/apex/APXTConga4__Conga_Composer?SolMgr=1
+&serverUrl={!API.Partner_Server_URL_370}
+&Id={!Contract.Id}
+
+&QueryId=[PayClause]0Q_002EAM459215,
+[DefClause]0Q_003EAM459215
+
+&TemplateId=0T_001EAM485999
+
+&XDO=CoreSDOContracts
+&DataTagEnable=1
+&DS7=11
+&TemplateGroup=MSA
+&FP0=2
+&BML=Generating+MSA+for+{!Contract.Name}
+&OFN=Generating+MSA - {!Today()}
+&AC0=1
+&AC1=MSA+Generated
+&UF0=1
+&MFTS0=Status
+&MFTSValue0=In+Approval+Process","&QueryId=[PayClause]0Q_002EAM459215,
+[DefClause]0Q_003EAM459215&TemplateId=0T_001EAM485999&XDO=CoreSDOContracts
+&DataTagEnable=1
+&DS7=11
+&TemplateGroup=MSA
+&FP0=2
+&BML=Generating+MSA+for+{!Contract.Name}
+&OFN=Generating+MSA - {!Today()}
+&AC0=1
+&AC1=MSA+Generated
+&UF0=1
+&MFTS0=Status
+&MFTSValue0=In+Approval+Process","#N/A","#N/A","#N/A","#N/A","#N/A",Contract,8005e000000ILEj,"#N/A",Created By Solution Pack,"#N/A",00b5e000000hmQP,Generate MSA
+b6ff46e5-b0ac-42aa-8aff-7d1d176cb7cb,Conga_Composer_Final_MSA_CS,"/apex/APXTConga4__Conga_Composer?SolMgr=1
+&serverUrl={!API.Partner_Server_URL_370}
+&Id={!Contract.Id}
+
+&QueryId=[PayClause]0Q_000EAM459215,
+[DefClause]0Q_001EAM459215
+
+&TemplateId=0T_000EAM487057
+
+&XDO=CoreSDOContracts
+&DS7=1141
+&csRecipient1={!Contract.CustomerSignedId}
+&CSRole1=Signer
+&csRecipient2={!$User.Id}
+&CSRole2=Signer
+&csRoutingType=SERIAL
+&CSVisible=1
+&csEmailSubject=Please+review+Final+MSA+for+{!Contract.Name}
+&ContactId={!Contract.CustomerSignedId}
+&BML=Final+MSA+for+{!Contract.Name}
+&AC1=Final+MSA+Generated
+&TemplateGroup=MSA
+&OFN=Final MSA - {!Today()}
+&AC0=1
+&DefaultPDF=1
+&UF0=1
+&MFTS0=Status
+&MFTSValue0=Out+For+Signature","&QueryId=[PayClause]0Q_000EAM459215,
+[DefClause]0Q_001EAM459215&TemplateId=0T_000EAM487057&XDO=CoreSDOContracts
+&DS7=1141
+&csRecipient1={!Contract.CustomerSignedId}
+&CSRole1=Signer
+&csRecipient2={!$User.Id}
+&CSRole2=Signer
+&csRoutingType=SERIAL
+&CSVisible=1
+&csEmailSubject=Please+review+Final+MSA+for+{!Contract.Name}
+&ContactId={!Contract.CustomerSignedId}
+&BML=Final+MSA+for+{!Contract.Name}
+&AC1=Final+MSA+Generated
+&TemplateGroup=MSA
+&OFN=Final MSA - {!Today()}
+&AC0=1
+&DefaultPDF=1
+&UF0=1
+&MFTS0=Status
+&MFTSValue0=Out+For+Signature","#N/A","#N/A","#N/A","#N/A","#N/A",Contract,8005e000000ILEj,"#N/A",Created By Solution Pack,"#N/A",00b5e000000hmQK,Final MSA CS
